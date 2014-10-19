@@ -9,6 +9,7 @@
 	color: #595959;
 	background:url(../img/background.jpg) repeat;
 	font-family: 'Lato', sans-serif;
+	font-size: 1em;
 }
 p { margin:0px 10px 10px 30px}
 .container {
@@ -136,13 +137,19 @@ rgba(150, 151, 146, 0.63)
 	line-height: 1.25;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif !Important;
+	font-weight:800;
 	text-align: center;
-}
-.carousel-caption h1 {
-	font-size:65px
+		font-size:65px
+
 }
 .carousel-caption .btn {
 	margin-top: 10px;
+}
+.text-component{
+	font-family: "Open Sans"; 
+	font-weight:400;
+	line-height:1.5em; 
+	color:#fff;
 }
 span.line {
 	background: #fff;
@@ -167,7 +174,7 @@ span.line {
 }
 /* content start*/
 .row {
-	padding:80px 0px 80px;
+	padding:100px 0px 120px;
 }
 .row h2 {
 	font-size:20px;
@@ -216,7 +223,9 @@ span.line-abs {
 	font-size:2em;
 }
 .inner-content {
-	text-align:center
+	text-align:center;
+	width:70%;
+	margin: 0 auto;
 }
 .inner-content2 {
 	text-align:left;
@@ -561,6 +570,8 @@ padding: 0 0 0 60px;
 }
  .carousel-caption h1 {
  font-size: 60px;
+ font-family:'Open Sans';
+ font-weight:800;
 }
  span.line {
  background: #000d37;
