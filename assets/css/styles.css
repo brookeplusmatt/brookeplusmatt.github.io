@@ -19,9 +19,7 @@ p { margin:0px 10px 10px 30px}
 .text-component2 {
 	font-family: 'Lato', sans-serif;
 }
-.text-component3 {
-	font-family: 'ProximaRegular', sans-serif;
-}
+
 /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
 
@@ -43,7 +41,7 @@ p { margin:0px 10px 10px 30px}
 /* Remove border and change up box shadow for more contrast */
     .navbar .navbar-inner {
 	border: 0;
-	background:rgba(255,255,255,0.8);
+	background:rgba(50,49,49,0.8);
 	opacity: :0.8;
 	filter:alpha(opacity=80);*/ /* For IE8 and earlier */
 	border-radius:0px;
@@ -66,7 +64,6 @@ width: 100%;
 	padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
 	font-size: 16px;
 	font-weight: bold;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
 }
 .navbar .nav > li {
 display: table-cell;
@@ -76,7 +73,7 @@ float: none;
 /* Navbar links: increase padding for taller navbar */
     .navbar .nav > li > a {
 	padding: 15px 20px 0px 20px;
-	color:#484646;
+	color:#ffffff;
 	font-family:'Lato', Sans-Serif;
 	font-size:16px;
 	line-height:25px
@@ -104,7 +101,6 @@ float: none;
 	height: 80px;
 	margin-top: 0;
 	font-size: 120px;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
 	background-color: transparent;
 	border: 0;
 	z-index: 10;
@@ -116,8 +112,8 @@ float: none;
 	position: absolute;
 	top: 0;
 	left: 0;
-	min-width: 100%;
-	height: /*1054px*/auto;
+	min-height: 100%;
+	width: /*1054px*/auto;
 }
 .carousel-caption {
 	background-color: transparent;	
@@ -146,7 +142,7 @@ rgba(150, 151, 146, 0.63)
 	margin-top: 10px;
 }
 .text-component{
-	font-family: "Open Sans"; 
+	font-family: 'Open Sans'; 
 	font-weight:400;
 	line-height:1.5em; 
 	color:#fff;
@@ -190,7 +186,6 @@ p.justify{
 	text-align:center;
 	font-weight:500;
 	margin-bottom:50px;
-	text-shadow:0 1px 0 #fff;
 	font-size:238%;
 	text-transform:uppercase
 }
@@ -261,7 +256,6 @@ span.line-abs {
 .text {
 	color: #555;
 	line-height: 145%;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 }
 .email-form {
 	width: 440px;
@@ -332,7 +326,7 @@ ol ol li{ list-style: lower-alpha}
 .clr{line-height:0px; font-size:0px; clear:both;}
 .rsvp-success, .rsvp-alert{height:auto; background: url(../img/tick-green.gif) no-repeat #01922d 14px center; padding:10px 0 10px 35px;
  border-radius: 5px;  -webkit-border-radius: 5px;  -moz-border-radius: 5px; font-size:16px; line-height:20px;width:auto;
- margin:23px 0 0; color:#fff;  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.75) }
+ margin:23px 0 0; color:#fff;   }
  .alerts{padding:0px 0 0;}
  .floatR{float:right; clear:both;}
 .rsvp-alert{background: url(../img/alert.gif) no-repeat #ae0001 14px center;  margin:9px 0 0; padding:10px 0 10px 43px; }
@@ -539,7 +533,7 @@ width:auto
  width: auto;
 }
  .carousel {
- padding-top:38px;
+ padding-top:0px;
 }
 /*.navbar-wrapper {
 	position: absolute;
@@ -550,7 +544,7 @@ width:auto
  padding-right:0px;
 }
 .navbar-inverse .nav-collapse .nav > li > a {
-color:#0e0e0e;
+color:#fffdfd;
 text-align:left
 }
 .navbar-inverse .nav-collapse .nav > li > a:hover, .navbar-inverse .nav-collapse .nav > li > a:focus {
@@ -588,11 +582,10 @@ padding: 0 0 0 60px;
  display: inline-block;
  zoom: 1;
  float: none;
- text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
  font-size: 26px;
  font-weight: 300;
  text-align: center;
- color:#000d37
+ color:#fff;
 }
  .featurette {
  height: auto;
@@ -677,7 +670,6 @@ width:auto
  display: inline-block;
  zoom: 1;
  float: none;
- text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
  font-size: 16px;
  font-weight: 300;
  text-align: center;
@@ -782,7 +774,7 @@ width:auto
  .carousel {
  margin-left: -20px;
  margin-right: -20px;
- margin-top:38px;
+ margin-top:0px;
  padding-top:0px;
 }
  .carousel .container {
@@ -799,6 +791,7 @@ width:auto
 }
  .carousel-caption h1 {
  font-size: 29px;
+ font-weight:800;
 }
  span.line {
  background: #000d37;
@@ -815,11 +808,10 @@ width:auto
  display: inline-block;
  zoom: 1;
  float: none;
- text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
  font-size: 16px;
  font-weight: 300;
  text-align: center;
- color:#000d37
+ color:#fff;
 }
 .text-component div div {
 font-size:12px

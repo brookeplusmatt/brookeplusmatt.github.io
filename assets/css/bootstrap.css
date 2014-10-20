@@ -5977,8 +5977,8 @@ a.badge:focus {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
-  max-height:896px;
+  height: 100%;
+ width:auto;
   background-image: url("assets/img/header.jpg");
 
   overflow:hidden;
