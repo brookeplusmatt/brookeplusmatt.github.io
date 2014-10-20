@@ -201,8 +201,7 @@ span.line-abs {
 	width:120px;
 	display:inline-block;
 	float:none;
-	margin-top:.7em;
-	top:10px;
+	top:50%;
 	right:100%
 }
 .right {
@@ -759,7 +758,7 @@ width: auto;
 margin: 0px auto;
 }
 span.line-abs {
-width:50px
+width:10px;
 }
 .inner-content2 {
 width:auto
