@@ -129,7 +129,7 @@ background-repeat: no-repeat;
 	position: static;
 	border-radius:2em;
 	max-width: 550px;
-	margin: 330px auto;
+	margin: 150px auto;
 /*
 rgba(150, 151, 146, 0.63)
 	padding: 0 0 0 150px;
@@ -510,9 +510,9 @@ font-size:20px; line-height:42px;}
 .inner-content2 ol {
 	padding:0 10px 0 30px;
 }
- .carousel { margin-top:20px
+ .carousel { margin-top:0px;
     }
-.carousel-caption h1 { font-size:66px}
+.carousel-caption h1 { font-size:66px;}
 span.line {width: 88px;}
 .navbar-inner {}
  }
@@ -569,7 +569,7 @@ background:#dfdfdf
 }
  .carousel-caption {
 padding: 0 0 0 60px;
- margin-top: 270px;
+ margin-top: 200px;
 }
  .carousel-caption h1 {
  font-size: 60px;
@@ -795,7 +795,7 @@ width:auto
  height: /*316px*/auto;
 }
  .carousel-caption {
- padding: 0 0 0 50px;
+ padding: 0 0 0 0px;
  margin-top: 130px;
 }
  .carousel-caption h1 {
