@@ -97,6 +97,15 @@ float: none;
 	position: relative;
 	z-index: 9;
 }
+
+div.item.active{
+background-image: url('/assets/img/header.jpg');
+overflow:hidden;
+background-position: center; 
+background-size:cover;
+background-repeat: no-repeat;
+}
+
 .carousel-control {
 	height: 80px;
 	margin-top: 0;
@@ -112,15 +121,15 @@ float: none;
 	position: absolute;
 	top: 0;
 	left: 0;
-	min-height: 100%;
-	width: /*1054px*/auto;
+	min-width: 100%;
+	min-height:100%;
 }
 .carousel-caption {
 	background-color: transparent;	
 	position: static;
 	border-radius:2em;
 	max-width: 550px;
-	margin: 330px auto 430px auto;
+	margin: 330px auto;
 /*
 rgba(150, 151, 146, 0.63)
 	padding: 0 0 0 150px;
@@ -192,6 +201,9 @@ p.justify{
 .ib2 {
 	display:inline-block;
 	position:relative;
+}
+div.subtitle {
+	text-align:center;
 }
 span.line-abs {
 	position:absolute;
@@ -493,7 +505,6 @@ font-size:20px; line-height:42px;}
     -------------------------------------------------- */
  @media (max-width: 1024px) {
 	  .carousel-caption {
- margin-bottom:220px;
   margin-top:280px;
 }
 .inner-content2 ol {
@@ -559,7 +570,6 @@ background:#dfdfdf
  .carousel-caption {
 padding: 0 0 0 60px;
  margin-top: 270px;
- margin-bottom:110px
 }
  .carousel-caption h1 {
  font-size: 60px;
@@ -811,6 +821,7 @@ width:auto
  font-weight: 300;
  text-align: center;
  color:#fff;
+ margin: 0 auto;
 }
 .text-component div div {
 font-size:12px
