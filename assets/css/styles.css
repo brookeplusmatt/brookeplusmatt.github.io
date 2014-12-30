@@ -230,8 +230,13 @@ span.line-abs {
 }
 .inner-content {
 	text-align:center;
-	width:70%;
+	width:50%;
 	margin: 0 auto;
+	line-height: 140%;
+}
+
+.inner-content li {
+	list-style: none;
 }
 .inner-content2 {
 	text-align:left;
