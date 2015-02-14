@@ -11,7 +11,7 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 14px;
 }
-p { margin:0px; text-align: left; min-width:400px;}
+p { margin:0px; text-align: left; min-width:275px;}
 .container {
 	width:960px;
 	margin:0px auto
@@ -145,7 +145,7 @@ rgba(150, 151, 146, 0.63)
 	margin: 0;
 	line-height: 1.25;
 	color: #fff;
-	font-family: 'Open Sans Condensed', sans-serif !Important;
+	font-family: 'Open Sans', sans-serif !Important;
 	font-weight:800;
 	text-align: center;
 		font-size:65px
@@ -358,12 +358,12 @@ background:#dfdfdf
  .carousel-caption {
  width:70%;
  padding:0;
- min-width:500px;
+ min-width:300px;
  margin: 200px auto;
 }
  .carousel-caption h1 {
  font-size: 60px;
- font-family:'Open Sans Condensed';
+ font-family:'Open Sans';
  font-weight:800;
 }
  span.line {
@@ -550,7 +550,7 @@ width:auto
  margin-top: 130px;
 }
  .carousel-caption h1 {
- font-size: 29px;
+ font-size: 3em;
  font-weight:800;
 }
  span.line {
