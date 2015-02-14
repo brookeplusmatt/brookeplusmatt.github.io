@@ -20,6 +20,10 @@ p { margin:0px; text-align: left; min-width:400px;}
 	font-family: 'Lato', sans-serif;
 }
 
+	footer h2 {
+		font-family: "Open Sans Condensed";
+	}
+
 /* CUSTOMIZE THE NAVBAR
     -------------------------------------------------- */
 
@@ -141,7 +145,7 @@ rgba(150, 151, 146, 0.63)
 	margin: 0;
 	line-height: 1.25;
 	color: #fff;
-	font-family: 'Open Sans', sans-serif !Important;
+	font-family: 'Open Sans Condensed', sans-serif !Important;
 	font-weight:800;
 	text-align: center;
 		font-size:65px
@@ -359,7 +363,7 @@ background:#dfdfdf
 }
  .carousel-caption h1 {
  font-size: 60px;
- font-family:'Open Sans';
+ font-family:'Open Sans Condensed';
  font-weight:800;
 }
  span.line {
