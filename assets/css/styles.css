@@ -195,7 +195,7 @@ p.justify{
 	text-align:center;
 	font-weight:500;
 	margin-bottom:50px;
-	font-size:238%;
+	font-size:160%;
 	text-transform:uppercase
 }
 .ib2 {
@@ -231,6 +231,7 @@ span.line-abs {
 .inner-content {
 	text-align:center;
 	width:50%;
+	min-width: 300px;
 	margin: 0 auto;
 	line-height: 140%;
 }
@@ -265,53 +266,6 @@ span.line-abs {
 	border-top: 1px solid #b9b9b9;
 	border-bottom: 1px solid #ffffff;/* Space out the Bootstrap <hr> more */
 }
-/*form*/
-#contact{
-	position:relative;
-}
-.text {
-	color: #555;
-	line-height: 145%;
-}
-.email-form {
-	width: 440px;
-	margin: 0 auto;
-}
-.input {
-	margin: 8px 0;
-	overflow: hidden;
-	font-size:100%
-}
-.input label {
-	text-align: right;
-	margin-right: 10px;
-	width: 70px;
-	float: left;
-	margin-top: 10px;
-	cursor:default
-}
-.input input {
-	width: 270px;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 8px 6px;
-	float: left;
-	font-size: 14px;
-	outline: none;
-}
-.input textarea {
-	width: 270px;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	height:100px;
-	float:left
-}
 .control {
 	width:365px;
 	text-align:right
@@ -330,180 +284,6 @@ span.line-abs {
 ol ol{ margin-top:10px}
 ol ol li{ list-style: lower-alpha}
 
-.rsvp-wrap{width:440px; border-top:1px solid #c0c0c0; margin:44px auto 0; padding:0 0 0;}
-.rsvp-attend-decline{border-top:1px solid #c0c0c0; padding:13px 0 0;}
-.rsvp-wrap label{color:#2c2c2c; font-weight:bold; font-family: 'Lato', sans-serif; font-size:20px; cursor:default}
-.rsvp-menu{padding:19px 0 30px;}
-.rsvp-menu-list{padding:0px; margin:0px;}
-.rsvp-menu-list li{float:left; margin:0 15px 0 0; list-style-type:none; text-align:center;}
-.rsvp-menu-list li input{margin:11px 0 0; text-align:left;}
-.rsvp-menu-list li img{line-height:0px; font-size:0px; display:block; clear:both; margin:0 auto; text-align:center; width:auto;}
-.rsvp-menu-list li p{font-size:16px; color:#2d2d2d; text-align:center; color:#2c2c2c; display:block; margin:4px 0 0;}
-.clr{line-height:0px; font-size:0px; clear:both;}
-.rsvp-success, .rsvp-alert{height:auto; background: url(../img/tick-green.gif) no-repeat #01922d 14px center; padding:10px 0 10px 35px;
- border-radius: 5px;  -webkit-border-radius: 5px;  -moz-border-radius: 5px; font-size:16px; line-height:20px;width:auto;
- margin:23px 0 0; color:#fff;   }
- .alerts{padding:0px 0 0;}
- .floatR{float:right; clear:both;}
-.rsvp-alert{background: url(../img/alert.gif) no-repeat #ae0001 14px center;  margin:9px 0 0; padding:10px 0 10px 43px; }
-.rsvp-add{background: url(../img/add.gif) no-repeat 9px center; height:42px; padding:0 0 0 37px; color:#2c2c2c;
-font-family: 'Lato', sans-serif; font-weight:bold; border-bottom:1px solid #c8c8c8; border-top:1px solid #c8c8c8;
-font-size:20px; line-height:42px;}
-.rsvp-add a{color:#2c2c2c;}
-.toggle{float:right;width:113px;}
-.toggle input{width:auto;}
-.iphone-toggle-buttons input[type="checkbox"] + span::after,
-        .iphone-toggle-buttons input[type="radio"] 
-        {
-            box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.3);
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"]:checked + span::after,
-        .iphone-toggle-buttons input[type="radio"]:checked + span::after
-        {
-            content: "";
-        }
-
-        .iphone-toggle-buttons
-        {
-            -moz-user-select: none;
-            -webkit-user-select: none;
-            user-select: none;
-        }
-
-        .iphone-toggle-buttons
-        {
-            margin: 0 0;
-        }
-
-        .iphone-toggle-buttons label,
-        .iphone-toggle-buttons input[type="checkbox"] + span,
-        .iphone-toggle-buttons input[type="radio"] + span,
-        .iphone-toggle-buttons input[type="checkbox"] + span::before,
-        .iphone-toggle-buttons input[type="radio"] + span::before,
-        .iphone-toggle-buttons input[type="checkbox"] + span::after,
-        .iphone-toggle-buttons input[type="radio"] + span::after
-        {
-            display: inline-block;
-        }
-
-        .iphone-toggle-buttons label,
-        .iphone-toggle-buttons input[type="checkbox"] + span,
-        .iphone-toggle-buttons input[type="radio"] + span
-        {
-            vertical-align: left;
-			float:left;
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"] + span,
-        .iphone-toggle-buttons input[type="radio"] + span,
-        .iphone-toggle-buttons input[type="checkbox"] + span::before,
-        .iphone-toggle-buttons input[type="radio"] + span::before,
-        .iphone-toggle-buttons input[type="checkbox"] + span::after,
-        .iphone-toggle-buttons input[type="radio"] + span::after
-        {
-            -moz-border-radius: 4px;
-            -webkit-border-radius: 4px;
-            border-radius: 4px;
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"] + span::before,
-        .iphone-toggle-buttons input[type="radio"] + span::before,
-        .iphone-toggle-buttons input[type="checkbox"] + span::after,
-        .iphone-toggle-buttons input[type="radio"] + span::after,
-        .iphone-toggle-buttons input[type="checkbox"]:checked + span::before,
-        .iphone-toggle-buttons input[type="radio"]:checked + span::before,
-        .iphone-toggle-buttons input[type="checkbox"]:checked + span::after,
-        .iphone-toggle-buttons input[type="radio"]:checked + span::after
-        {
-            top: 0;
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"] + span::after,
-        .iphone-toggle-buttons input[type="radio"] + span::after,
-        .iphone-toggle-buttons input[type="checkbox"]:checked + span::before,
-        .iphone-toggle-buttons input[type="radio"]:checked + span::before
-        {
-            right: 0;
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"] + span::before,
-        .iphone-toggle-buttons input[type="radio"] + span::before,
-        .iphone-toggle-buttons input[type="checkbox"]:checked + span::after,
-        .iphone-toggle-buttons input[type="radio"]:checked + span::after
-        {
-            left: 0;
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"],
-        .iphone-toggle-buttons input[type="radio"],
-        .iphone-toggle-buttons input[type="checkbox"] + span::before,
-        .iphone-toggle-buttons input[type="radio"] + span::before,
-        .iphone-toggle-buttons input[type="checkbox"] + span::after,
-        .iphone-toggle-buttons input[type="radio"] + span::after
-        {
-            position: absolute;
-        }
-
-        .iphone-toggle-buttons label
-        {
-            margin: 0px;
-            cursor: pointer;
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"],
-        .iphone-toggle-buttons input[type="radio"]
-        {
-     		margin: 2px -93px 0;
-			margin:-5px -27px 0\9;
-			outline: none !important;
-			border: 0px !important;
-			
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"] + span,
-        .iphone-toggle-buttons input[type="radio"] + span
-        {
-        
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"] + span::before,
-        .iphone-toggle-buttons input[type="radio"] + span::before
-        {
-         
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"] + span::after,
-        .iphone-toggle-buttons input[type="radio"] + span::after
-        {
-          
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"]:checked + span,
-        .iphone-toggle-buttons input[type="radio"]:checked + span
-        {
-            
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"]:checked + span::before,
-        .iphone-toggle-buttons input[type="radio"]:checked + span::before
-        {
-           
-        }
-
-        .iphone-toggle-buttons input[type="checkbox"]:checked + span::after,
-        .iphone-toggle-buttons input[type="radio"]:checked + span::after
-        {
-           
-        }
-
-        .browser-support li.ie6,
-        .browser-support li.ie7,
-        .browser-support li.ie8
-        {
-            display: none;
-        }
-		.iphone-toggle-buttons ul li{list}
 
 
     /* RESPONSIVE CSS
@@ -554,7 +334,6 @@ width:auto
 	position: absolute;
 	}*/
  .navbar-inner {
- border-radius: 0;
  margin: 0px 0;
  padding-right:0px;
 }
@@ -690,7 +469,7 @@ width:auto
  color:#000d37
 }
 .text-component div div {
-font-size:12px
+font-size:18px
 }
  .carousel-caption .lead, .carousel-caption .btn {
  font-size: 18px;
@@ -704,46 +483,7 @@ font-size:12px
  .featurette .lead {
  font-size: 18px;
  line-height: 1.5;
-}
-.email-form {
- width: auto;
- margin: 10px auto;
-}
-.input {
- margin: 8px 0;
- overflow: hidden;
- font-size:100%
-}
-.input label {
- text-align: right;
- margin-right: 10px;
- width: 70px;
- float: left;
- margin-top: 0px;
- cursor:default
-}
-.input input {
- width: 260px;
- border-radius: 3px;
- -webkit-border-radius: 3px;
- -moz-border-radius: 3px;
- box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
- border: 1px solid rgba(0, 0, 0, 0.1);
- padding: 8px 6px;
- float: left;
- font-size: 14px;
-}
-.input textarea {
- width: 300px;
- border-radius: 3px;
- -webkit-border-radius: 3px;
- -moz-border-radius: 3px;
- box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
- border: 1px solid rgba(0, 0, 0, 0.1);
- height:100px;
- float:left
-}
-.control {
+}.control {
  width:auto;
  text-align:center;
 }
@@ -829,7 +569,7 @@ width:auto
  margin: 0 auto;
 }
 .text-component div div {
-font-size:12px
+font-size:18px
 }
  .carousel-caption .lead, .carousel-caption .btn {
  font-size: 18px;
@@ -843,44 +583,6 @@ font-size:12px
  .featurette .lead {
  font-size: 18px;
  line-height: 1.5;
-}
-.email-form {
- width: auto;
- margin: 10px auto;
-}
-.input {
- margin: 8px 0;
- overflow: hidden;
- font-size:100%
-}
-.input label {
- text-align: right;
- margin-right: 10px;
- width: 70px;
- float: left;
-
- cursor:default
-}
-.input input {
- width: 260px;
- border-radius: 3px;
- -webkit-border-radius: 3px;
- -moz-border-radius: 3px;
- box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
- border: 1px solid rgba(0, 0, 0, 0.1);
- padding: 8px 6px;
- float: left;
- font-size: 14px;
-}
-.input textarea {
- width: 300px;
- border-radius: 3px;
- -webkit-border-radius: 3px;
- -moz-border-radius: 3px;
- box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
- border: 1px solid rgba(0, 0, 0, 0.1);
- height:100px;
- float:left
 }
 .control {
  width:auto;
@@ -909,7 +611,7 @@ font-size:12px
  margin-bottom: 20px;
 }
  .carousel-caption h1 {
- font-size: 25px;
+ font-size: 40px;
 }
  span.line {
  background: #000d37;
@@ -927,33 +629,4 @@ font-size:12px
 }
  .carousel img {
  height: /*211px*/auto;
-}
- .input input {
- width: 140px;
- border-radius: 3px;
- -webkit-border-radius: 3px;
- -moz-border-radius: 3px;
- box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
- border: 1px solid rgba(0, 0, 0, 0.1);
- padding: 8px 6px;
- float: left;
- font-size: 14px;
-}
-.input textarea {
- width: auto;
- border-radius: 3px;
- -webkit-border-radius: 3px;
- -moz-border-radius: 3px;
- box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.3);
- border: 1px solid rgba(0, 0, 0, 0.1);
- height:100px;
- float:left
-}
-
-.rsvp-wrap{width:100%; border-top:1px solid #c0c0c0; margin:0px; padding:0 0 0;}
-.rsvp-success, .rsvp-alert{font-size:11.5px; width:auto;}
-.rsvp-menu-list li{ margin:0 8px 0 0; list-style-type:none; text-align:center; }
-.toggle{width:113px; /*float:none;clear:both; display:block;*/ padding:0px 0 0;}
-.input label { margin-top:0px}
-.rsvp-menu-list li p { font-size:14px}
 }
