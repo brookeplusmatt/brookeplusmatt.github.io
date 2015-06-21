@@ -267,8 +267,7 @@ span.line-abs {
 
     .featurette-divider {
 	margin: 10px 0;
-	border-top: none;
-	border-bottom: 1px solid #ffffff;/* Space out the Bootstrap <hr> more */
+
 }
 .control {
 	width:365px;
